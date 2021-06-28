@@ -19,7 +19,8 @@ Additional Resources
  - In the volumes section, add a new volume called prometheus-rules-volume that maps to the prometheus-rules-conf Config Map.
 7. Apply the changes to prometheus-deployment.yml.
 
-### Consider a situation when expression query is running slow, so you can create recording rules and apply the changes
+### Consider a situation when expression query is running slow, After careful investigation you decided to convert this expression rules into recording rules, 
+    In order to go ahead add the recording rules in prometheus environment, please follow below steps and apply recording rules
 
 Create the Recording Rule
 
