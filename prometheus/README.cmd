@@ -96,3 +96,8 @@ kubectl delete pods <POD_NAME> -n monitoring
 3. Open up a new web browser tab, and navigate to the Expression browser. This will be at the public IP of the lab server, on port 8080:
 http://<IP>:8080
 4. Click on Status, and select Target from the dropdown. We should see two targets in there.
+
+
+Once done with above steps, grab your piublic ip and port and paste it in the browser and you should see prometheus dashboard, go to Status -> Target to which will show the service discovery which we configured
+Should be some something like the image is attached in the repo.
+
